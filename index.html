@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+    <!--second one-->
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="snap">
+        <img class="logo" src="images/logo.svg" alt="snap logo">
+      </div>
+
+      <div id="menu">
+        <img id="open" src="images/icon-menu.svg" alt="3bars">
+        <img id="close" class="hide" src="images/icon-close-menu.svg" alt="close">
+      </div>
+
+        <div class="container slide" id="menu2">
+          <ul class="subnav">
+            <li class="parent1" id="features">
+              <a href="#">Features</a>
+              <span class="left-icon" id="arrow"></span>
+              <span class="right-icon"></span>
+              <!--<img class="a-down" id="arrow" src="images/icon-arrow-down.svg" alt="down arrow">-->
+            <ul class="sub-content" id="sub-menu">
+              <li>
+                <img class="todo" src="images/icon-todo.svg" alt="">
+                <a href="#">Todo List</a>
+              </li>
+              <li>
+                <img class="cal" src="images/icon-calendar.svg" alt="">
+                <a href="#">Calendar</a>
+              </li>
+              <li>
+                <img class="remind" src="images/icon-reminders.svg" alt="">
+                <a href="#">Reminders</a>
+              </li>
+                <li>
+                  <img class="plan" src="images/icon-planning.svg" alt="">
+                  <a href="#">Planning</a>
+                </li>
+            </ul>
+                </li>
+                  <li class="parent2" id="company">
+                    <a href="#">Company</a>
+                    <span class="left-icon"></span>
+                    <span class="right-icon"></span>
+                    <!--<img class="a-down" id="downarrow" src="images/icon-arrow-down.svg" alt="">-->
+                <ul class="sub-content2" id="submenu">
+                    <li>
+                      <a class="history" href="#">History</a>
+                    </li>
+                    <li>
+                      <a class="team" href="#">Our Team</a>
+                    </li>
+                    <li>
+                      <a class="blog" href="#">Blog</a>
+                    </li>
+                </ul>
+                 </li>
+                    <li class="careers">Careers</li>
+                    <li class="about">About</li>
+                    <li class="login">Login</li>
+                    <li>
+                        <button class="btn">Register</button>
+                    </li>
+
+            </ul>
+        </div>
+    </nav>
+</header>
+    <div class="hero">
+        <div class="pic">
+            <img class="mobile" src="images/image-hero-mobile.png" width="375px" alt="man holding laptop">
+            <img class="desktop" src="images/image-hero-desktop.png" width="475px"alt="man holding laptop" >
+        </div>
+        <div class="work">
+            <h1>Make<br class="break"> remote work</h1>
+            <p>
+                Get your team in sync, no matter your <br class="break2">location.<br class="break"> Streamline processes, create<br class="break2">
+                team rituals, and<br class="break"> watch productivity soar.
+            </p>
+            <button class="bbtn">Learn more</button>
+        </div>
+    </div>
+    <footer>
+        <img class="data" src="images/client-databiz.svg" width="80px" alt="databiz logo">
+        <img class="client" src="images/client-audiophile.svg" width="60px" alt="audio logo">
+        <img class="meet" src="images/client-meet.svg" width="60px" alt="meet logo">
+        <img src="images/client-maker.svg" width="60px" alt="maker logo">
+    </footer>
+
+    <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Kim Carney</a>.
+      </div>
+      <script src="main.js"></script>
+</body>
+</html>
+
